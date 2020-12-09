@@ -17,9 +17,12 @@ Do the following:
 
    HINT: no function required
 */
-
-
-
+    let votingAge = 20;
+    if (votingAge >= 18)
+    {
+      console.log(true);
+    }
+      
 /*
 Task 1b - Values
 
@@ -30,8 +33,14 @@ Do the following:
 
    HINT: no function required
 */
+    
+    let a=10;
+    let b=12;
 
-
+    if(a<b){
+       a=20;
+       console.log(a);
+    }
 
 
 
@@ -45,8 +54,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
-
+  let str = '1999';
+  parseInt(str);
 
 
 /*
@@ -63,8 +72,6 @@ function multiply(a, b/*add your code here*/){
     return a * b;
   }
 
-
-
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
 //Age in Dog years
@@ -75,8 +82,13 @@ Do the following:
    3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
+function dogYears(age/*add your code here*/)
+{
     /*add your code here*/
+  let dogYear;
+  const value=7;
+  return dogYear=age*7;
+
 }
 
 
@@ -152,11 +164,13 @@ Using the miles function below do the following:
   3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
+function miles(kilometers/*add your code here*/){
     /*add your code here*/
+    let mile;
+    const factor=0.621371;
+    mile=kilometers*factor;
+    return mile;
   }
-
-
 
 //Task 5b - Feet to CM
 /*
@@ -166,8 +180,12 @@ Using the feet function below do the following:
   3. Return number of feet
 */
 
-function feet(/*add your code here*/){
+function feet(cm/*add your code here*/){
     /*add your code here*/
+    let ft;
+    /*const factor=30.48;*/
+    ft= (cm/30.48);
+    return ft;
   }
  
 
